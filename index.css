@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Varela+Round&display=swap');
+body{
+    background-color:lightgreen;
+}
+*{
+  margin:0;padding:0;  
+}
+nav{
+    font-family: sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height:50px;background-color: black;color:white;
+}
+nav ul li{
+    padding :0 20px;
+}
+.brand img{
+    width:42px;padding:0 5px; 
+}
+.brand{
+    display :flex;align-items: center;
+    font-weight:bolder;
+}
+.container{
+    min-height:69vh;
+    font-family: 'Varela Round',sans-serif;
+    background-color: black;
+    color:white;
+    display:flex;
+    margin:23px auto;width:70%;border-radius: 12px;
+    background-image: url('bg.jpg');
+}
+.bottom{
+    position:sticky;
+    height:130px;background-color: black;
+    bottom:0;
+    display:flex;justify-content: center;
+    text-align:center;flex-direction: column;
+}
+
+.icons{
+    margin-top:15px;color:white;
+}
+.songItem{
+    display:flex;
+    height:50px;
+    background-color: white;color:black;
+    justify-content: space-between;align-items: center;
+    border-radius:34px;
+    margin:12px 0;padding-left:10px;padding-right:10px;
+}
+.songItem img{
+    width:25px; height:25px;  
+    border-radius:34px;
+}
+span{
+    cursor: pointer;
+}
+.songinfo img{
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+}
+#progress{
+    cursor: pointer;
+}
